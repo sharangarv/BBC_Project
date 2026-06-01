@@ -1,14 +1,3 @@
-"""
-filter_articles.py
-──────────────────
-Cleans and filters raw_articles.json → clean_articles.json
-
-Run:
-    python filter_articles.py
-    python filter_articles.py --min-words 100 --sections world,technology
-    python filter_articles.py --input raw_articles.json --output clean_articles.json
-"""
-
 import json
 import re
 import argparse
