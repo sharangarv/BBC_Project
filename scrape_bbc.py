@@ -1,19 +1,3 @@
-"""
-scrape_bbc.py
-─────────────
-Scrapes BBC News using public RSS feeds + article page fetching.
-Saves results to raw_articles.json
-
-Install:
-    pip install requests beautifulsoup4 lxml
-
-Run:
-    python scrape_bbc.py                        # all sections, 100 articles
-    python scrape_bbc.py --max 50               # limit to 50
-    python scrape_bbc.py --sections world,tech  # specific sections only
-    python scrape_bbc.py --delay 2              # slower, more polite
-"""
-
 import requests
 import json
 import time
