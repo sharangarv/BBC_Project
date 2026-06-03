@@ -1,12 +1,3 @@
-"""
-Custom Django management command to import scraped BBC articles into the database.
-
-Usage:
-    python manage.py import_articles
-    python manage.py import_articles --file path/to/clean_articles.json
-    python manage.py import_articles --file raw_articles.json
-"""
-
 import json
 from pathlib import Path
 from datetime import datetime, timezone
